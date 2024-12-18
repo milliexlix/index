@@ -1,0 +1,102 @@
+body{
+    background-color:blanchedalmond;
+    margin: 0%;
+}
+header{
+    background-color:lightpink;
+    width:100%;
+    height:30%;
+    font-family:Arial;
+    color:rgb(63, 156, 63);
+    font-size:25px;
+    margin:0%;
+    
+}
+h1{
+font-size:30px;
+}
+.w{
+    font-size:40px;
+}
+input{
+    font-size:30px;
+    color: rgb(16, 97, 13);
+    padding-left:15%;
+    display:inline;
+}
+input:hover{
+color: rgb(133, 24, 118);
+}
+.w2{
+     background-color: rgb(247, 132, 237);
+     color: rgb(133, 24, 118);
+     width: 100%;
+     height: 20%;
+     font-size:30px;
+     margin: 0%;
+}
+.w3{
+    border:none;
+    background-color: lightpink;
+}
+.w4{
+    color:rgb(63, 156, 63);
+    background-color:rgb(15, 61, 17);
+    font-size:25px ;
+    padding-left:15%;
+    margin: 0%;
+    display:flex;  
+}
+
+.w5{
+font-size:25px;
+color:rgb(63, 156, 63);
+}
+.w6{
+    font-size:50px;
+    color:rgb(63, 156, 63);
+}
+.w7{
+    display:flex;
+    padding:20px;
+}
+.w8{
+    border-radius:20px;
+    margin-left:10px;
+    height:200px;
+    background-color:pink;
+    flex: 1;
+    transition: .3s all ease;
+}
+.w8:hover{
+    flex: 2;
+    background-color: violet ;
+}
+.w9{
+     background-color: rgb(133, 24, 118);
+    border-radius:50%;
+    width:300px;
+    height:30px;
+    color:pink;
+}
+.w9:focus{
+  color: rgb(133, 24, 118) ;  
+  background-color:violet;
+}
+.w10{
+    background-color:rgb(63, 156, 63);
+    font-size:35px;
+    color: rgb(13, 67, 11);
+    padding: 0%;
+}
+.w11{
+    background-color:rgb(63, 156, 63);
+    font-size: 25px;
+    color: rgb(13, 67, 11);
+    
+}
+.w12{
+    width:200px;
+    display:flex;
+    height:200px;
+}
