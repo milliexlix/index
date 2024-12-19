@@ -67,10 +67,21 @@ color:rgb(63, 156, 63);
     background-color:pink;
     flex: 1;
     transition: .3s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    color:rgb(8, 63, 17);
 }
 .w8:hover{
     flex: 2;
     background-color: violet ;
+}
+.w8 a{
+    text-decoration: none;
+    color: #000;
+    font-size:18px;
+    font-weight: bold;
 }
 .w9{
      background-color: rgb(133, 24, 118);
@@ -100,3 +111,30 @@ color:rgb(63, 156, 63);
     display:flex;
     height:200px;
 }
+.w14{
+    color:rgb(109, 10, 104);
+    font-size:45px;
+    margin-left:300px;
+   
+}
+.w15{
+    margin-left:350px;
+    color:rgb(12, 51, 15);
+    font-size:30px;
+}
+.w16{
+    background-color: rgb(133, 24, 118);
+    border-radius:50%;
+    width:200px;
+    height:30px;
+    color:pink;
+}
+.w16:focus{
+    color: rgb(133, 24, 118) ;  
+    background-color:violet;
+  }
+  footer{
+    background-color:lightpink;
+    padding:50px;
+    color:green;
+  }
